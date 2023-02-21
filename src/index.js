@@ -1,13 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+//import { GifExpertApp } from './GiftExpertApp';
 import reportWebVitals from './reportWebVitals';
+import App from './App';
+import { GifGrid } from './GifGrid2';
+//import { GifGrid } from './GifGrid1';
+
+//import App from './App';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+<GifGrid/>
+  
+
+ 
   </React.StrictMode>
 );
 
