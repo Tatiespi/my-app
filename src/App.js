@@ -1,54 +1,8 @@
 import "./App.css";
 import "./index.js"
-/* EMPIEZAAAA
- Callenge 3
-const App = () => {
-  const [counter, setCounter] = useState(0);
 
-  const handleSubtract = () => {
-   if(counter>0){
-      setCounter(counter - 1);
-    }
-    
-  };
-  const addubtract = () => {
-    setCounter(counter + 1);
-  };
 
-  const handleReset = () => {
-   setCounter(0);
-  };
 
-  return (
-    <div>
-     <h1>Counter: {counter}</h1>
-     <button onClick={handleSubtract}>Subtract</button>
-      <button onClick={handleReset}>Reset</button>
-      <button onClick={addubtract}>add</button>    
-     </div>
- );
-};
-
-export default App;
-
-TERMINAAAA */
-
-//Challenge 2
-/* EMPIEZAAAA
-import React from 'react';
-
-function FirstApp() {
-  return (
-    <div>
-      <h1>New Title</h1>
-      <span>10</span>
-    </div>
-  );
-} 
-export default FirstApp;
-
-TERMINAAAA 
-*/
 
 //Challenge 4
 //EMPIEZAAAA
