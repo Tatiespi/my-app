@@ -1,5 +1,12 @@
-const App = () => {
-    const [counter, setCounter] = useState(0);
+import "./App.css";
+import "./index.js"
+
+  
+  import { useState } from 'react';
+
+  const App =() =>{
+
+   const [counter, setCounter] = useState(0);
   
     const handleSubtract = () => {
      if(counter>0){
@@ -23,6 +30,10 @@ const App = () => {
         <button onClick={addubtract}>add</button>    
        </div>
    );
-  };
+
+    };
+  
+
   
   export default App;
+  
