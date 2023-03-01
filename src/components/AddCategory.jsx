@@ -1,8 +1,7 @@
-import {useState } from 'react'
+import React, {useState } from 'react'
 
 export const AddCategory = ({onAddCategory}) => {
   const [inputValue, setinputValue] = useState('')
-
   const onInputChange = (evt) => {
     setinputValue(evt.target.value)
   }
@@ -18,7 +17,7 @@ export const AddCategory = ({onAddCategory}) => {
 
       <input
       type="text"
-      placeholder="Caca"
+      placeholder="buscar"
       value={inputValue}
       onChange={(event ) => onInputChange(event)}
       />
