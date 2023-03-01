@@ -2,7 +2,7 @@ import { UseFetchGifs } from "./useFetchGifs";
 import { GifItem } from "./GifItem";
 
 export const getGifs = async (category) => {
-  const url = `https://api.giphy.com/v1/gifs/search?api_key=eEufhiRhqRyc5888Bj80CEtTnWnI18ba&q=${category}&limit=15&offset=0&rating=g&lang=en`;
+  const url = `https://api.giphy.com/v1/gifs/search?api_key=2tVPg4sF3n01nzCbep5k708clcxE18b2&q=${category}&limit=15&offset=0&rating=g&lang=en`;
   const resp = await fetch(url);
   const { data } = await resp.json();
   const gifs = data.map((img) => {
