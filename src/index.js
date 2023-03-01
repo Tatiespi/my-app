@@ -4,8 +4,7 @@ import './index.css';
 //import { GifExpertApp } from './GiftExpertApp';
 import reportWebVitals from './reportWebVitals';
 import App from './App';
-import { GifGrid } from './GifGrid2';
-//import { GifGrid } from './GifGrid1';
+import { Gift } from './components/Gift';
 
 //import App from './App';
 
@@ -13,7 +12,7 @@ import { GifGrid } from './GifGrid2';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-<App/>
+<Gift/>
   
 
  

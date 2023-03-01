@@ -1,5 +1,6 @@
-import { UseFetchGifs } from "./useFetchGifs";
+
 import { GifItem } from "./GifItem";
+import { useFetchGifs } from "./useFetchGifs";
 
 export const getGifs = async (category) => {
   const url = `https://api.giphy.com/v1/gifs/search?api_key=2tVPg4sF3n01nzCbep5k708clcxE18b2&q=${category}&limit=15&offset=0&rating=g&lang=en`;
@@ -16,7 +17,7 @@ export const getGifs = async (category) => {
 };
 
 export const Gift = ({ category }) => {
-  const { images, isLoading } = UseFetchGifs(category);
+  const { images, isLoading } = useFetchGifs(category);
 
   return (
     <>
