@@ -1,4 +1,4 @@
-import {useEffect, useState} from 'react'
+/*import {useEffect, useState} from 'react'
 export const useFetch = (url) => {
 
 const [state, setState] = useState({
@@ -8,8 +8,8 @@ hasError: null
 })
 
 const getFetch = async () =› {
-const api = await fetch( url);
-const data = await api.json();
+//const api = await fetch( url);
+//const data = await api.json();
 
 setState({
 data,
@@ -26,4 +26,4 @@ getFetch()
 return {
 ...state
 }
-}
+}*/
